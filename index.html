@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cold Email Generator</title>
+</head>
+<body>
+    <h1>Cold Email Generator</h1>
+    <form action="/generate_email" method="post">
+        <label for="job_link">Job Posting Link:</label><br>
+        <input type="text" id="job_link" name="job_link" required><br><br>
+
+        <label for="user_name">Your Name:</label><br>
+        <input type="text" id="user_name" name="user_name" required><br><br>
+
+        <label for="user_role">Role Applied For:</label><br>
+        <input type="text" id="user_role" name="user_role" required><br><br>
+
+        <label for="user_expertise">Your Expertise:</label><br>
+        <textarea id="user_expertise" name="user_expertise" rows="4" required></textarea><br><br>
+
+        <label for="tone_choice">Choose Tone:</label><br>
+        <select id="tone_choice" name="tone_choice">
+            <option value="1">Professional</option>
+            <option value="2">Casual</option>
+            <option value="3">Persuasive</option>
+        </select><br><br>
+
+        <label for="language_choice">Choose Language:</label><br>
+        <select id="language_choice" name="language_choice">
+            <option value="1">English</option>
+            <option value="2">Spanish</option>
+            <option value="3">French</option>
+        </select><br><br>
+
+        <button type="submit">Generate Email</button>
+    </form>
+</body>
+</html>
