@@ -43,6 +43,15 @@ Gone are the days of staring at a blank email screen—this application ensures 
 4. **Copy the Email**: Review and copy the generated email displayed on the results page.
 
 ---
+## **📷 Screenshots**
+
+### **Input Form**
+![Input Form](input_form.png)
+
+### **Generated Email Output**
+![Generated Email Output](output_email.png)
+
+---
 
 ## **💡 Future Enhancements**
 
